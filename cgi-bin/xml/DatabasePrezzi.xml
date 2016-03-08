@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="./Prezzi ./DatabasePrezzi.xsd">
+	<prodotto>
+		<id_prodotto>1</id_prodotto>
+		<nome>Rilegatura Tesi Istantanea</nome>
+		<descrizione>In pochi minuti una rilegatura in cartoncino con frontespizio stampato. Disponibili vari colori.</descrizione>
+		<prezzo>al costo di 5€ cad.</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>2</id_prodotto>
+		<nome>Rilegatura Tesi Classica</nome>
+		<descrizione>Per la vostra tesi potete scegliere tra una vasta gamma di combinazioni di colori e materiali.
+2 copie a partire da 16,50€ cad.</descrizione>
+		<prezzo>2 cop. 16,50€ cad.</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>3</id_prodotto>
+		<nome>Fotocopie B/N automatiche</nome>
+		<descrizione>Formato A4 da file al costo di 0,04€ cad. Formato A3 al prezzo doppio dell’A4</descrizione>
+		<prezzo>da 0,04€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>4</id_prodotto>
+		<nome>Plottaggi o Grandi Formati B/N</nome>
+		<descrizione>Nei Formati:
+A2 al costo di 4,00€ cad
+A1 al costo di 6,00€ cad
+A0 al costo di 7,00€ cad</descrizione>
+		<prezzo>da 4,00€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>5</id_prodotto>
+		<nome>Fotocopie a Colori</nome>
+		<descrizione>Formato A4
+da 1 a 10 al costo di 0,40€ cad.
+Formato A3
+al prezzo doppio dell’ A4.</descrizione>
+		<prezzo>da 0,30€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>6</id_prodotto>
+		<nome>Plot. o Grandi Formati a Colori</nome>
+		<descrizione>Nei Formati: A2 al costo di 8,00€ cad A1 al costo di di 12,00€ cad A0 al costo di 15,00€ cad</descrizione>
+		<prezzo>da 8,00€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>7</id_prodotto>
+		<nome>Timbri</nome>
+		<descrizione>Timbri Manuali
+a partire da 6,00€
+Timbri Autoinchiostranti
+a partire da 15,00€</descrizione>
+		<prezzo>da 6,00€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>8</id_prodotto>
+		<nome>Rilegatura</nome>
+		<descrizione>Eseguiamo le seguenti rilegature:
+Plastica: 1,50 – 2,00 – 3,00€ cad
+Metallo: al costo di 2,50€ cad
+Termica: 3,00 – 4,00 – 5,00€ cad</descrizione>
+		<prezzo>da 1,50€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>9</id_prodotto>
+		<nome>Plastificazione</nome>
+		<descrizione>Formato A4
+al costo di 1,00€ cad.
+Formato A3
+al costo di 1,50€ cad.</descrizione>
+		<prezzo>da 1,00€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>10</id_prodotto>
+		<nome>Foto a colori plastificate</nome>
+		<descrizione>Formato A4
+al costo di 1,50€ cad.
+Formato A3
+al costo di 2,00€ cad.</descrizione>
+		<prezzo>da 1,50€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>11</id_prodotto>
+		<nome>Biglietti da Visita</nome>
+		<descrizione>In Bianco e Nero:
+100 al costo di 10,00€
+A Colori:
+100 al costo di 15,00€</descrizione>
+		<prezzo>da 10,00€</prezzo>
+	</prodotto>
+	<prodotto>
+		<id_prodotto>12</id_prodotto>
+		<nome>Fax</nome>
+		<descrizione>
+Italia: 1 pagina 1,00€ più pagine 0,50€
+Europa: 1 pagina 2,00€ più pagine 1,00€
+
+Ricezione al costo di 1,00€
+</descrizione>
+		<prezzo>da 1,00€</prezzo>
+	</prodotto>
+</prodotti>

@@ -1,0 +1,395 @@
+/*  RESET RULES  */
+html, body, ul#lista_servizi {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Font aggiunti */
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 400;
+  src: 	local('Lobster Two'),
+				local('LobsterTwo'),
+				url('./fonts/Lobster-Two-regular/Lobster-Two-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: 	local('Droid Sans'),
+				local('DroidSans'),
+				url('./fonts/Droid-Sans-regular/Droid-Sans-regular.woff') format('woff');
+}
+
+/* Regole di stile */
+
+body {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 85%;
+}
+
+hr	{
+	margin: 0;
+	border-color: #4AA94A;
+}
+h1,h2,h3{
+	font-family: "Lobster Two", fantasy;
+	font-weight: 500;
+	line-height: 1.1;
+}
+h2, h3{
+	color: #1E4C1E;
+}
+h1{
+	text-align:center;
+	color: #F0FFDD;
+	font-size: 2.15em;
+	}
+h2{
+	font-size: 1.65em;
+}
+h3{
+	font-size: 1.40em;
+}
+
+#main {
+	display: table;
+	width: 100%;
+	}
+
+#main > div{
+	display: table-cell;
+	}
+
+#header	 {
+	background-color: #313131;
+  text-align: center;
+  padding: 1em;
+	}
+
+#breadcrumb{
+	background-color: #CAE2C0;
+	}
+
+#breadcrumb p{
+	margin-left:1.5em;
+	}
+
+#nav{
+	width:20%;
+	background-color:#C9EFBA;
+	padding-left:1.5em;
+	}
+
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	}
+
+#nav li {
+	margin-top:1em;
+	}
+
+
+
+#content{
+  vertical-align: middle;
+	width:80%;
+	background-color: #F0FFDD;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	}
+
+#footer{
+	background-color: #CAE2C0;
+	clear:both;
+	text-align:center;
+	padding:1em;
+	}
+
+#logo{
+  width: 10em;
+}
+
+a{
+	color: #770000;
+	padding:1px;
+	}
+
+a img{
+ border-width: 0;
+}
+
+a:hover{
+	background: #FFF;
+	border: 1px dashed #363;
+	padding: 0;
+	}
+
+a#ancoraLogo:hover{
+	background: none;
+	border: none;
+	padding: 1px;
+}
+
+a:visited{
+	color: #350035;
+}
+
+.backToTop{
+	text-align: right;
+	margin-right: 4em;
+	clear: both;
+}
+
+.error{
+	color:red;
+	}
+
+#content #lista_servizi,#content #lista_Commenti{
+	border-collapse:separate;
+	border-spacing:1em;
+}
+
+#content #lista_Commenti{
+	background-color: white;
+	background-image: url("../img/bg_wide.jpg");
+	border: 1px solid #4CAE4C;
+	border-radius:4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+
+#content #lista_servizi .nome_prodotto {
+	margin: 1em -0.5em 0 -0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #CCEEEE;
+
+}
+
+#content #lista_Commenti .commento{
+	padding:1em;
+	border:1px solid #4CAE4C;
+	border-top:none;
+}
+
+#content #lista_Commenti #num_commenti{
+	display:block;
+	padding:1em;
+	background-color: #CAE2C0;
+	border: 1px solid #4CAE4C;
+	margin:0;
+
+}
+
+#content textarea{
+	resize: none;
+	font-family: "Droid Sans", sans-serif;
+	font-size: 85%;
+}
+
+.pulsante{
+	cursor: pointer;
+	background-color: #CAE2C0;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #4CAE4C;
+	padding: 0.7em 1em;
+	font-size: 95%;
+}
+
+.pulsante:hover{
+	background-color: #C9EFBA;
+}
+
+#content #lista_Commenti .commento .commento_dati{
+	display:inline-block;
+	vertical-align:middle;
+	width:90%;
+	padding-left:1em;
+}
+
+#content #lista_Commenti .commento .commento_dati_admin{
+	display:inline-block;
+	vertical-align:middle;
+	width:60%;
+	padding-left:1em;
+}
+
+#content #lista_Commenti .commento .commento_delete{
+	display:inline-block;
+	vertical-align:middle;
+	width:30%;
+	text-align:center;
+}
+
+form{
+	text-align: center;
+}
+label{
+	display: block;
+	padding-bottom: 0.2em;
+}
+input{
+	margin: 0 auto 1em auto;
+}
+.azioni_servizio .pulsante{
+	display: inline-block;
+}
+
+.form_semplice > p, .form_con_testo > p > span{
+	display: inline-block;
+	padding: 0 2em;
+}
+
+form.form_con_testo{
+	width: 65%;
+}
+#content #pannelloServizi{
+}
+
+#content #introServizi{
+width:65%;
+display: table-cell;
+padding-right: 1%;
+}
+
+#content #sezionericerca{
+	width: 32%;
+	text-align: center;
+	display: table-cell;
+}
+#content #sezionericerca #bottonericerca{
+	margin-left: 2em;
+}
+
+#content #noscript{
+	font-style: italic;
+}
+#content #lista_servizi .servizio{
+	display:inline;
+	float:left;
+	width:27%;
+	background-color: white;
+	background-image: url("../img/bg_wide.jpg");
+	text-align:center;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	border:1px solid #4CAE4C;
+	margin:1%;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+#content #lista_servizi .servizio .descrizione_prodotto{
+	min-height: 6em;
+	margin-bottom: 0;
+}
+
+#content #lista_servizi .servizio label{
+	display:inline-block;
+	width:35%;
+	vertical-align:middle;
+}
+#content #lista_servizi .servizio input[type="text"],#content #lista_servizi .servizio textarea{
+	display:inline-block;
+	width:60%;
+	vertical-align:middle;
+}
+
+#content #lista_servizi .servizio .pulsante{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+.immagine-principale{
+	width: 80%;
+}
+
+#admin_logout{
+	padding: 0 1em 0 0;
+	float: right;
+}
+
+/*** Alcuni back to the top non dovrebbero essere visualizzati nella versione desktop perché la pagina
+	è troppo breve, ma voglio che siano comunque presenti su mobile dove anche poco testo può uscire dallo schermo.
+	Questo il motivo della seguente classe.
+ ***/
+
+.noDesktop{
+	display: none;
+}
+
+/** per nascondere testi destinati solo agli screen reader */
+
+.reader {
+	visibility: collapse;
+	position: absolute;
+	left: -100000px;
+}
+
+/*** Visualizzazioni intermedie ***/
+@media screen and (max-width: 925px) {
+	#content #lista_servizi .servizio{
+		width:44%;
+	}
+	#content #lista_servizi .servizio .descrizione_prodotto{
+		min-height: 4em;
+	}
+	.form_semplice > p{
+		display: block;
+		padding: 0;
+	}
+
+	form.form_con_testo{
+		width: 90%;
+	}
+	#content #introServizi{
+	width:100%;
+	display: block;
+	padding-right: 0;
+	}
+
+	#content #sezionericerca{
+		width: 100%;
+		display: block;
+	}
+
+
+}
+
+/*** Visualizzazioni intermedie ***/
+@media screen and (max-width: 625px) {
+	#content #lista_servizi .servizio{
+		width:95%;
+	}
+	#content #lista_servizi .servizio .descrizione_prodotto{
+		min-height: 0;
+	}
+
+	#admin_logout{
+		display: block;
+		padding: 1em 1em 0 0;
+		float: none;
+	}
+
+	textarea {
+		width: 80%;
+	}
+
+	form.form_con_testo{
+		width: 100%;
+	}
+
+
+}

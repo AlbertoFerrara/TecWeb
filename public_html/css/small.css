@@ -1,0 +1,89 @@
+/* Impostazioni generali per il mobile */
+
+body{
+	margin: 0;
+	font-size: 100%;
+}
+#main {
+	display: block;
+}
+#main > div{
+	display: block;
+}
+
+#logo {
+  float: left;
+  width: 5em;
+}
+
+#nav {
+  width: auto;
+	overflow: auto;
+	border-bottom: 1px solid #666666;
+}
+
+#content {
+  vertical-align: middle;
+  width: auto;
+	padding: 1em;
+}
+
+#nav a, #nav a:visited {
+    padding: 0 0.8em 0 0.8em;
+    margin: 0;
+}
+
+#nav ul {
+    margin: 0;
+}
+
+
+#nav li {
+    display: inline;
+    padding: 0.3em;
+    margin: 0.1em;
+    float: left;
+    border: 1px solid #666666;
+}
+
+#content > h2{
+	margin-top: 0;
+}
+
+#footer{
+	padding: 0.3em;
+}
+
+#footer p {
+	margin: 0.3em 0 0.3em 0;
+}
+
+/* Impostazioni specifiche di correzioni per le varie pagine */
+
+/* Immagini pagine storia e contatti */
+
+.immagine-principale{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Pagina Servizi */
+
+#content #lista_servizi{
+	margin-left: -0.5em;
+}
+
+#content #lista_servizi .servizio{
+	display: block;
+	width: 97%;
+	margin: 0 auto 0.3em auto;
+}
+
+#content #lista_servizi .servizio .descrizione_prodotto{
+	min-height: 0;
+}
+
+.noDesktop{
+	display: block;
+}

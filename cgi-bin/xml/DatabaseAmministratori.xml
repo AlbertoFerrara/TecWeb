@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<amministratori xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="./Amministratori ./DatabaseAmministratori.xsd">
+	<amministratore>
+		<username>admin</username>
+		<password>a1159e9df3670d549d04524532629f5477ceb7deec9b45e47e8c009506ecb2c8</password>
+	</amministratore>
+	<amministratore>
+		<username>admin2</username>
+		<password>a1159e9df3670d549d04524532629f5477ceb7deec9b45e47e8c009506ecb2c8</password>
+	</amministratore>
+</amministratori>

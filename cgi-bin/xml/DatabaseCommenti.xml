@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<commenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="./Commenti ./DatabaseCommenti.xsd">
+	<commento>
+		<nome>Giuseppe</nome>
+		<email>giuseppe@gmail.com</email>
+		<testo>Bella copisteria complimenti!</testo>
+		<dataora>Thu Dec 10 12:12:30 2015</dataora>
+		<id_commento>2</id_commento>
+	</commento>
+	<commento>
+		<nome>Antonio</nome>
+		<email>beppe@gmail.it</email>
+		<testo>Le fotocopie fatte all'istante, e i commessi gentilissimi.</testo>
+		<dataora>Thu Nov 24 16:28:30 2015</dataora>
+		<id_commento>1</id_commento>
+	</commento>
+</commenti>

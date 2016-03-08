@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 400;
+  src: 	local('Lobster Two'),
+				local('LobsterTwo'),
+				url('./fonts/Lobster-Two-regular/Lobster-Two-regular.woff') format('woff');
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 11pt;
+}
+
+ul#lista_servizi {
+  list-style-type:none;
+  padding-left: 0;
+}
+
+h1,h2,h3{
+	font-family: "Lobster Two", fantasy;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#logo{
+	display: block;
+	width: 20%;
+	margin-top: 2%;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+#nav{
+	display:none;
+}
+
+#servizi{
+	display: none;
+}
+
+#footer{
+	display: none;
+}
+
+
+.servizio{
+	padding: 1%;
+	width: 95%;
+	border: 1px solid black;
+	margin-bottom: 2%;
+}
+
+#immagine{
+	text-align: center;
+}
+
+img{
+	width:60%;
+	margin: 0 auto;
+}
+
+#scrivi_commento{
+	display: none;
+}
+
+#commento_dati{
+	padding: 1%;
+	width: 95%;
+	border: 1px solid black;
+	margin-bottom: 2%;
+}
+
+#form_login{
+	width: 100%;
+}
+
+#invia{
+	display: block;
+	margin-top: 3%;
+}
+
+#inserisci_prodotto{
+	display: none;
+}
+
+#content #lista_servizi .servizio{
+  page-break-inside: avoid;
+}
+
+.noPrint{
+	display: none;
+}

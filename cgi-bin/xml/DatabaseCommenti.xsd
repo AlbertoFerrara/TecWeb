@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xsd:element name="commenti" type="TCommenti"/>
+
+	<xsd:complexType name="TCommenti">
+	    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+	        <xsd:element name="commento" type="TCommento"/>
+	    </xsd:sequence>
+	</xsd:complexType>
+    	<xsd:complexType name="TCommento">
+		  	<xsd:sequence>
+	   			<xsd:element name="nome" type="xsd:string"/>
+ 	   			<xsd:element name="email" type="xsd:string"/>
+	   			<xsd:element name="testo" type="xsd:string"/>
+					<xsd:element name="dataora" type="xsd:string"/>
+					<xsd:element name="id_commento" type="xsd:string"/>
+	  		</xsd:sequence>
+		</xsd:complexType>
+	</xsd:schema>
